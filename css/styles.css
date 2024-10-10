@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: url('../images/binary-2904980_1920.jpg') no-repeat center center/cover;
+    background: url('../images/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg') no-repeat center center/cover;
     color: rgb(255, 255, 255);
 }
 s
@@ -35,4 +35,16 @@ footer a:hover {
 
 .text-center a:hover {
     transform: scale(1.2);
+}
+.text-dark {
+    --bs-text-opacity: 1;
+    color: #a1a1a1 !important;
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: #ffffff !important;
+}
+.btn {
+    color: #000000;
+
 }
