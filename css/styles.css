@@ -5,12 +5,13 @@ body {
 }
 
 header {
-    background: url('../images/background.jpg') no-repeat center center/cover;
-    color: white;
+    background: url('../images/binary-2904980_1920.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
 }
-
+s
 header h1, header p {
     animation: fadeInDown 1s ease-in-out;
+    
 }
 
 #profil, #competences, #projets, #formation {
