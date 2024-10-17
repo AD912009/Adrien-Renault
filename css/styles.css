@@ -84,7 +84,8 @@ footer a:hover {
     font-size: 1.8rem;
     color: #0d6efd; /* Couleur bleue pour les sous-titres */
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 10px; /* Ajustez cette valeur selon vos besoins */
+    margin-bottom: 10px; /* Ajustez cette valeur selon vos besoins */
     position: relative;
 }
 
