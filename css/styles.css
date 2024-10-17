@@ -48,3 +48,14 @@ footer a:hover {
     color: #000000;
 
 }
+
+#competences h4 {
+    margin-top: 30px;
+    color: #0d6efd; /* Un bleu pour faire ressortir les titres */
+}
+
+.list-group-item {
+    background-color: #f8f9fa; /* Légèrement gris pour différencier les éléments */
+    border: none;
+    padding: 10px 15px;
+}
