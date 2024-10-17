@@ -49,13 +49,117 @@ footer a:hover {
 
 }
 
-#competences h4 {
-    margin-top: 30px;
-    color: #0d6efd; /* Un bleu pour faire ressortir les titres */
+/* Section Compétences */
+#competences {
+    background-color: #f9f9f9; /* Couleur de fond légèrement grise */
+    padding: 60px 0;
 }
 
+#competences h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#competences h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #0d6efd; /* Barre bleue sous le titre */
+}
+
+#competences h4 {
+    font-size: 1.8rem;
+    color: #0d6efd; /* Couleur bleue pour les sous-titres */
+    font-weight: bold;
+    margin-top: 30px;
+    position: relative;
+}
+
+#competences h4::before {
+    content: "\f121"; /* Icône par défaut (peut être changée pour chaque compétence) */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #0d6efd;
+    margin-right: 10px;
+}
+
+/* Style des listes */
 .list-group-item {
-    background-color: #f8f9fa; /* Légèrement gris pour différencier les éléments */
-    border: none;
-    padding: 10px 15px;
+    background-color: #ffffff; /* Fond blanc pour les éléments */
+    border: 1px solid #ddd; /* Légère bordure */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* Fond plus foncé au survol */
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#competences ul {
+    padding-left: 0;
+}
+
+#competences ul li {
+    list-style: none;
+}
+
+/* Ajout d'icônes personnalisées pour chaque compétence */
+#competences .langages::before {
+    content: "\f121"; /* Icône "code" */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #ff5733;
+}
+
+#competences .virtualisation::before {
+    content: "\f233"; /* Icône "VM" */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #17a2b8;
+}
+
+#competences .reseau::before {
+    content: "\f796"; /* Icône "Network" */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #28a745;
+}
+
+#competences .devops::before {
+    content: "\f0ad"; /* Icône "Docker" */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #ff5733;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #competences h2 {
+        font-size: 2rem;
+    }
+    
+    #competences h4 {
+        font-size: 1.5rem;
+    }
+
+    .list-group-item {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
 }
