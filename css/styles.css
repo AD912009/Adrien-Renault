@@ -8,14 +8,18 @@ header {
     background: url('../images/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg') no-repeat center center/cover;
     color: rgb(255, 255, 255);
 }
-s
+
 header h1, header p {
     animation: fadeInDown 1s ease-in-out;
-    
 }
 
 #profil, #competences, #projets, #formation {
     margin-bottom: 50px;
+}
+
+/* Navbar styles */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer Icons */
@@ -36,17 +40,19 @@ footer a:hover {
 .text-center a:hover {
     transform: scale(1.2);
 }
+
 .text-dark {
     --bs-text-opacity: 1;
     color: #a1a1a1 !important;
 }
+
 .text-white {
     --bs-text-opacity: 1;
     color: #ffffff !important;
 }
+
 .btn {
     color: #000000;
-
 }
 
 /* Section Compétences */
@@ -161,7 +167,7 @@ footer a:hover {
     #competences h2 {
         font-size: 2rem;
     }
-    
+
     #competences h4 {
         font-size: 1.5rem;
     }
@@ -170,4 +176,26 @@ footer a:hover {
         font-size: 0.9rem;
         padding: 10px;
     }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.25rem;
+    }
+}
+
+/* Hero Section */
+header {
+    background: url('../images/hero-background.jpg') no-repeat center center/cover; /* Assurez-vous d'avoir une image de fond appropriée */
+    color: #fff;
+    height: 100vh; /* Hauteur pleine pour la section d'en-tête */
+    display: flex;
+    align-items: center; /* Aligne le contenu verticalement au centre */
+    justify-content: center; /* Aligne le contenu horizontalement au centre */
+}
+
+header .text-center {
+    text-align: center; /* Centre le texte dans l'en-tête */
 }
