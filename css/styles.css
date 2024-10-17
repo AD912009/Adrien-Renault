@@ -3,10 +3,17 @@ body {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
-
 header {
-    background: url('\mon-site-cv\Adrien.Renault.github.io\images\programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg') no-repeat center center/cover;
-    color: rgb(255, 255, 255);
+    background: url('../images/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg') no-repeat center center/cover; /* Assurez-vous d'avoir une image de fond appropriée */
+    color: #fff;
+    height: 100vh; /* Hauteur pleine pour la section d'en-tête */
+    display: flex;
+    align-items: center; /* Aligne le contenu verticalement au centre */
+    justify-content: center; /* Aligne le contenu horizontalement au centre */
+}
+
+header .text-center {
+    text-align: center; /* Centre le texte dans l'en-tête */
 }
 
 header h1, header p {
@@ -188,15 +195,4 @@ footer a:hover {
 }
 
 /* Perso */
-header {
-    background: url('../images/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg') no-repeat center center/cover; /* Assurez-vous d'avoir une image de fond appropriée */
-    color: #fff;
-    height: 100vh; /* Hauteur pleine pour la section d'en-tête */
-    display: flex;
-    align-items: center; /* Aligne le contenu verticalement au centre */
-    justify-content: center; /* Aligne le contenu horizontalement au centre */
-}
 
-header .text-center {
-    text-align: center; /* Centre le texte dans l'en-tête */
-}
