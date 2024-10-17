@@ -148,6 +148,14 @@ footer a:hover {
     color: #ff5733;
 }
 
+#competences .infrastructure::before {
+    content: "\f0e7"; /* Icône "cogs" pour représenter les outils */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #007bff; /* Couleur bleue pour correspondre au thème */
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     #competences h2 {
