@@ -13,7 +13,7 @@ header {
 }
 
 header .text-center {
-    text-align: center; /* Centre le texte dans l'en-tête */
+    text-align: center; 
 }
 
 header h1, header p {
@@ -29,7 +29,7 @@ header h1, header p {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer Icons */
+/* Footer*/
 footer a {
     color: white;
     transition: color 0.3s ease-in-out;
@@ -39,7 +39,7 @@ footer a:hover {
     color: #0d6efd;
 }
 
-/* Icônes des réseaux sociaux */
+/* Icônes réseaux sociaux */
 .text-center a {
     transition: transform 0.3s ease-in-out;
 }
@@ -62,7 +62,7 @@ footer a:hover {
     color: #000000;
 }
 
-/* Section Compétences */
+/* Compétences */
 #competences {
     background-color: #f9f9f9; /* Couleur de fond légèrement grise */
     padding: 60px 0;
@@ -129,7 +129,7 @@ footer a:hover {
     list-style: none;
 }
 
-/* Ajout d'icônes personnalisées pour chaque compétence */
+/* Icônes personnalisées pour compétences */
 #competences .langages::before {
     content: "\f121"; /* Icône "code" */
     font-family: "Font Awesome 5 Free";
@@ -167,7 +167,7 @@ footer a:hover {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-    color: #007bff; /* Couleur bleue pour correspondre au thème */
+    color: #007bff; 
 }
 
 /* Responsive */
@@ -193,6 +193,4 @@ footer a:hover {
         font-size: 1.25rem;
     }
 }
-
-/* Perso */
 
